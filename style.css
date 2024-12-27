@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #141414;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #141414;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #e50914;
+}
+
+.profile img {
+    height: 35px;
+    border-radius: 4px;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url('https://wallpapers.com/images/hd/netflix-background-gs7hjuwvv2g0e9fj.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin-top: 60px; /* offset for fixed navbar */
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #e50914;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: #f40612;
+}
+
+.movie-section {
+    padding: 40px 0;
+}
+
+.movie-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.movie-row {
+    display: flex;
+    overflow-x: auto;
+}
+
+.movie {
+    flex: 0 0 200px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.movie:hover {
+    transform: scale(1.1);
+}
+
+/* footer {
+    background-color: #141414;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+} */
+
+footer{
+    margin-top: 15px;
+}
+
+.foot-panel1{
+    background-color: #141414;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+
+.foot-panel2{
+    background-color: #141414;
+    color: rgba(255, 255, 255, 0.147);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul{
+    margin-top: 20px;
+}
+
+ul a{
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #dddddd75
+
+}
+
+
+.foot-panel3{
+    background-color: #141414;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-panel3 .logo {
+    background-image: url("amazon_logo.png");
+    background-size: contain; /* Cover will make it cover its entire box */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 150px; /* Set a fixed width to prevent stretching */
+    margin: 0 auto; /* Center the logo */
+}
+
+
+
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+
